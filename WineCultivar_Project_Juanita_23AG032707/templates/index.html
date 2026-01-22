@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wine Cultivar Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h2>Wine Cultivar Origin Prediction System</h2>
+
+    <form method="post">
+        <input type="number" step="any" name="alcohol" placeholder="Alcohol" required>
+        <input type="number" step="any" name="malic_acid" placeholder="Malic Acid" required>
+        <input type="number" step="any" name="ash" placeholder="Ash" required>
+        <input type="number" step="any" name="alcalinity_of_ash" placeholder="Alcalinity of Ash" required>
+        <input type="number" step="any" name="flavanoids" placeholder="Flavanoids" required>
+        <input type="number" step="any" name="color_intensity" placeholder="Color Intensity" required>
+
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Wine Origin: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>

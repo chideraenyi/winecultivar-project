@@ -1,0 +1,6 @@
+Name: Juanita Chidera Enyi
+Matric Number: YOUR_MATRIC_NUMBER
+Machine Learning Algorithm Used: Support Vector Machine (SVM)
+Model Persistence Method: Joblib
+Live URL: https://your-deployed-link-here
+GitHub Repository: https://github.com/yourusername/WineCultivar_Project
